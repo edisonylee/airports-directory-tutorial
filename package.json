@@ -10,17 +10,19 @@
     "generate-schemas": "bun scripts/generate-schemas.ts"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
+    "cms-renderer": "latest",
     "next": "^16.1.1",
     "react": "^19",
     "react-dom": "^19",
-    "cms-renderer": "latest",
+    "tailwindcss": "^4.3.0",
     "zod": "^4.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
-    "@types/react": "^18.3.0",
-    "@types/react-dom": "^18.3.0",
-    "typescript": "^5.0.0",
-    "object-hash": "^3.0.0"
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "object-hash": "^3.0.0",
+    "typescript": "^5.0.0"
   }
 }
