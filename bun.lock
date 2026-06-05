@@ -6,7 +6,7 @@
       "name": "airports-directory",
       "dependencies": {
         "@tailwindcss/postcss": "^4.3.0",
-        "cms-renderer": "latest",
+        "cms-renderer": "^0.7.0",
         "next": "^16.1.1",
         "react": "^19",
         "react-dom": "^19",
@@ -287,7 +287,7 @@
 
     "client-only": ["client-only@0.0.1", "", {}, "sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA=="],
 
-    "cms-renderer": ["cms-renderer@0.6.10", "", { "dependencies": { "@heroicons/react": "^2.2.0", "@hookform/resolvers": "^5.1.0", "@lexical/code": "0.39.0", "@lexical/link": "0.39.0", "@lexical/list": "0.39.0", "@lexical/markdown": "0.39.0", "@lexical/react": "0.39.0", "@lexical/rich-text": "0.39.0", "@lexical/selection": "0.39.0", "@lexical/utils": "0.39.0", "@supabase/ssr": "0.8.0", "@supabase/supabase-js": "2.90.1", "@tanstack/react-query": "5.90.16", "@testing-library/react": "16.3.1", "@trpc/client": "^11.8.1", "@trpc/react-query": "^11.8.1", "@trpc/server": "^11.8.1", "escape-string-regexp": "^5.0.0", "md4w": "^0.2.7", "next": "16.2.6", "object-hash": "^3.0.0", "react": "^19.1.0", "react-dom": "^19.1.0", "shiki": "^4.0.2", "superjson": "2.2.6", "zod": "4.3.5" } }, "sha512-FhDgqfnlhNpZIUbjv3HwhltadycSrtDgZXd5HZ1GYxAnwVF1v4/EQEqQY0INJOyRG7nbz2I6y0rbUwU3zDcUGg=="],
+    "cms-renderer": ["cms-renderer@0.7.0", "", { "dependencies": { "@heroicons/react": "^2.2.0", "@hookform/resolvers": "^5.1.0", "@lexical/code": "0.39.0", "@lexical/link": "0.39.0", "@lexical/list": "0.39.0", "@lexical/markdown": "0.39.0", "@lexical/react": "0.39.0", "@lexical/rich-text": "0.39.0", "@lexical/selection": "0.39.0", "@lexical/utils": "0.39.0", "@supabase/ssr": "0.8.0", "@supabase/supabase-js": "2.90.1", "@tanstack/react-query": "5.90.16", "@testing-library/react": "16.3.1", "@trpc/client": "^11.8.1", "@trpc/react-query": "^11.8.1", "@trpc/server": "^11.8.1", "escape-string-regexp": "^5.0.0", "md4w": "^0.2.7", "next": "16.2.6", "object-hash": "^3.0.0", "react": "^19.1.0", "react-dom": "^19.1.0", "shiki": "^4.0.2", "superjson": "2.2.6", "zod": "4.3.5" } }, "sha512-GL1QQSrtk5DneJEKLMwQ5nDsN4LR04o+R7UF6+LSpN8gYkwcd3fKLGVFtGJJwg67j8vG+1FlfpEkr+Anvcqgww=="],
 
     "comma-separated-tokens": ["comma-separated-tokens@2.0.3", "", {}, "sha512-Fu4hJdvzeylCfQPp9SGWidpzrMs7tTrlu6Vb8XGaRGck8QSNZJJp538Wrb60Lax4fPwR64ViY468OIUTbRlGZg=="],
 

@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.3.0",
-    "cms-renderer": "latest",
+    "cms-renderer": "^0.7.0",
     "next": "^16.1.1",
     "react": "^19",
     "react-dom": "^19",
