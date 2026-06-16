@@ -9,13 +9,13 @@ export const proxy = async (request: NextRequest): Promise<NextResponse> => {
   return response;
 };
 
-export const config = {
+export const proxyConfig = {
   matcher: [
     "/admin",
     "/admin/:path*",
     "/api/:path*",
     "/auth/:path*",
     "/_next/:path*",
-    "/((?:.*\\.(?:css|js|map|png|jpg|jpeg|gif|svg|ico|webp|avif|woff|woff2|ttf|eot|txt|xml))$)",
+    "/((?:.*\\.(?:css|js|map|png|jpg|jpeg|gif|svg|ico|webp|avif|woff|woff2|ttf|eot|txt|xml|wasm))$)",
   ],
 };
